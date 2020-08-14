@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Our Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://d2aq6dqxahe4ka.cloudfront.net/assets/uploads/beneficiary/-2069379359625602049.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CRoboto:400%7CRubik:100,400,700">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+
+  
+
+  <style>
+     .dropdown{
+       position:relative;
+       display:inline-block;
+       
+     }
+     .dropdown-content{
+       display:none;
+       position:absolute;
+       background-color:#f9f9f9;
+       min-width:300px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       padding: 12px 16px;
+       z-index:1;
+       font-size:20px;
+       BACKGROUND:BLACK;
+     }
+     .dropdown-content a{
+      color:#7FBC4E;
+      padding: 12px 12px;
+      text-decoration:none;
+      display:block;
+     }
+     .dropdown-content a:hover{
+       background-color:#ddd;
+     }
+     .dropdown:hover .dropdown-content{
+       display:block;
+     }
+     .section {	
+        
+      }
+      .wrapsection {  
+          padding-top:140px;
+          padding-bottom:140px;
+          position: relative;
+        }
+      
+      .parallax.section .container{
+          position: relative;
+          z-index: 4;
+      }
+      .justtitle {
+          margin-top:80px;
+      }
+      .parallax {
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          overflow: hidden;
+          z-index: 1;	
+          color:#fff;
+      }
+      .parallax-overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          z-index: 2;
+      }
+      .maintitle h3 {
+        text-transform:uppercase;
+        color:#01B;
+        font-size:50px;
+    }
+    .maintitle,.service-box {
+        text-align:center;
+    }
+    .maintitle .lead {
+        max-width:840px;
+        margin:0px auto;
+        margin-bottom:80px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+     #gallery .image-responsive {
+        width:100%;
+        height:auto;
+            transition:all .3s ease-in-out;
+    }
+    #gallery .image-responsive:hover {
+        transform:scale(1.3);
+    }
+    #gallery a {
+        display:block;
+        overflow:hidden;
+        margin-bottom:30px;
+    }
+    #gallery a .image-responsive {
+        margin-bottom:0px;
+        display:block;
+        width:100%;
+        max-width:100%;
+    }
+    #gallery .description {
+        background-color:#fff;
+        display:block;
+        padding:20px 15px;
+        color:#333;
+        text-transform:uppercase;
+        clear:both;
+        position: relative;
+    }
+    #gallery .caption {
+        float:left;
+    }
+    #gallery .camera {
+        float:right;
+    }
+    #gallery a.btn {
+        display:inline-block;
+    }
+    @media(min-width:576px){
+	.callme{
+	  display:none;
+	}
+  }
+  @media(max-width: 420px){
+      
+      #changes{
+        font-size:14px;
+      }
+      #changes img{
+        width:20px;
+        height:20px;
+      }
+    }
+    @media(max-width: 374px){
+      
+      #changes{
+        font-size:12px;
+      }
+      #changes img{
+        width:15px;
+        height:15px;
+      }
+    }
+    @media(max-width: 354px){
+      
+      #changes{
+        font-size:10px;
+      }
+      #changes img{
+        width:10px;
+        height:10px;
+      }
+    }
+
+   </style>
+   <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5ef3a6c5a922da001296fc82&product=inline-share-buttons" async="async"></script>
+   
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="/images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel" style="background-color: white;">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                  </ul><img class="brand-logo-light" src="/images/Shuddhi Mail LOGO.jpg.png" alt="" width="207" height="51"/></a></div>
+                  <div class="callme">
+                    <button style="background:white;border:white;box-shadow:white;"></button> 
+                    <button style="background:white;color:white; border: none;"><a href="tel:011-41253951" id="changes" style="float:right;color:white"><img src="https://vision.org.au/campaigns/wp-content/uploads/sites/13/2018/09/mobile-icon.png" width="30px" height="30px"></a></button>
+                    
+                    <button style="background:white;color:white; border: none;"><a href="https://wa.me/911141253951" id="changes" target="_blank" style="float:right;color:white;"><img src="https://banner2.kisspng.com/20180511/agq/kisspng-whatsapp-logo-computer-icons-5af5a9591ee442.6188279815260491131265.jpg" width="32px" height="32px"></a></button>
+                    </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="/">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><div class="dropdown"><div class="rd-nav-link" id="drop1">Shuddhi NGO <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ic_arrow_drop_down_circle_48px.svg/1024px-Ic_arrow_drop_down_circle_48px.svg.png" height="20px" width="20px"></div>
+                        <div class="dropdown-content" id="content1">
+                          <a href="/aboutus">About Us</a></br>
+                          <a href="/ourpartner">Our Partners</a>
+                          <!-- <a href="/causes">Causes</a>                 -->
+                        </div>
+                        </div>
+                      </li>
+                      <li class="rd-nav-item"><div class="dropdown"><div class="rd-nav-link" id="drop2"></a>Register <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ic_arrow_drop_down_circle_48px.svg/1024px-Ic_arrow_drop_down_circle_48px.svg.png" height="20px" width="20px"></div>
+                        <div class="dropdown-content" id="content2">
+                          <a href="/main/registervolunteer">Volunteer</a></br>
+                          <a href="/main/registermember">Member</a></br>
+                          <a href="/main/registerngo">NGO</a></br>
+                          <a href="/main/gov">CSR/Donor</a>
+                        </div>
+                        </div>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="/main/login">Login</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="/main/gallery">Gallery</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="/contactus" style="margin-right: 2rem;">Contacts</a>
+                      </li>
+                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="/donate">Donate To Shuddhi</a>
+                      </li> -->
+                    <a class="button button-primary button-sm" href="/donate">Donate To Shuddhi</a>
+
+                    <a class="button button-primary button-sm" href="/main/ngo" style="background-color: #33C9FF;">Fundraiser</a>
+                     
+                    <!-- </ul><a class="button button-primary button-sm" href="#">Donate</a> -->
+                  </div>
+                </div>
+                <!-- <a class="button button-primary button-sm" href="/main/form1">Donate To SHUDDHI</a> -->
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <script>
+        $(document).ready(function(){
+           $("#drop1").click(function(){
+        $("#content1").toggle();
+           });
+          });
+          $(document).ready(function(){
+           $("#drop2").click(function(){
+        $("#content2").toggle();
+           });
+          });
+        </script>
+      <section class="parallax-container" data-parallax-img="/images/gif.gif">
+        <div class="parallax-content breadcrumbs-custom context-dark">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9">
+                <h2 class="breadcrumbs-custom-title">Gallery</h2>
+                <ul class="breadcrumbs-custom-path">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">Gallery</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section id="gallery" class="parallax section" style="background-image: url('https://thumbs.gfycat.com/AmusedHarmoniousAnemonecrab-max-1mb.gif');">
+        <div class="wrapsection">
+            <div class="parallax-overlay" style="background-color:#01b0d1;opacity:0.7;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 sol-sm-12">
+                        <div class="maintitle">
+                            <h3 class="section-title" style="font-family: Georgia;">Events Gallery</h3></br>
+                            <p class="lead wow flipInX">
+                                Have a look at our past events gallery, see how much fun we have while helping people all over the world. Join our community today!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 sol-sm-12">
+                      <div class="maintitle">
+                          <h3 class="section-title" style="font-family: Georgia;">FIGHT AGAINST COVID-19 !!</h3>
+                      </br>
+                      <br>
+                      </div>
+                  </div>
+                </br>
+                  <div class="col-md-4">
+                    <a href="/images/police.jpg">
+                    <img src="/images/police.jpg" alt="" style="height:210px;" class="image-responsive">
+                        <div class="description">
+                            <span class="caption">HELPING OUR <b>POLICE</b></span> 
+                            <span class="camera"><i class="fa fa-coffee"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/images/7.png" >
+                    <img src="/images/7.png" alt="" class="image-responsive">
+                        <div class="description">
+                            <span class="caption">GATHER <B>AWARENESS</B></span> 
+                            <span class="camera"><i class="fa fa-coffee"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/images/8.png">
+                    <img src="/images/8.png" alt="" class="image-responsive">
+                        <div class="description">
+                            <span class="caption">HELP <b>WOMEN</b></span> 
+                            <span class="camera"><i class="fa fa-coffee"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/images/10.png">
+                    <img src="/images/10.png" alt="" class="image-responsive">
+                        <div class="description">
+                            <span class="caption"><b>DONATE </b>FOOD</span> 
+                            <span class="camera"><i class="fa fa-coffee"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/images/11.png">
+                    <img src="/images/11.png" alt="" class="image-responsive">
+                        <div class="description">
+                            <span class="caption"><b>CORONA </b>SPREAD</span> 
+                            <span class="camera"><i class="fa fa-coffee"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/images/12.png">
+                    <img src="/images/12.png" alt="" class="image-responsive">
+                        <div class="description">
+                            <span class="caption">COVID- <b>19</b></span> 
+                            <span class="camera"><i class="fa fa-coffee"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+
+</br>
+<div class="col-md-12 sol-sm-12">
+  <br><div class="maintitle">
+      <h3 class="section-title" style="font-family: Georgia;">Team Shuddhi's Events & Works</h3>
+  </br>
+  <br>
+  </div>
+</div>
+</br>
+
+                    <div class="col-md-4">
+                        <a href="/images/1.png">
+                            <img src="/images/1.png" alt="" class="image-responsive">
+                            <div class="description">
+                                <span class="caption">SCHOOL <B>PRESENTATION</B></span> 
+                                <span class="camera"><i class="fa fa-camera"></i></span>
+                                <div class="clearfix"></div>
+                            </div>			
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/images/2.png">
+                        <img src="/images/2.png" alt="" class="image-responsive">
+                            <div class="description">
+                                <span class="caption">ART & <B>CULTURE</B></span> 
+                                <span class="camera"><i class="fa fa-link"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/images/3.png">
+                        <img src="/images/3.png" alt="" class="image-responsive">
+                            <div class="description">
+                                <span class="caption">JAI <B>HIND</B></span> 
+                                <span class="camera"><i class="fa fa-heart"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/images/4.png">
+                        <img src="/images/4.png" alt="" class="image-responsive">
+                            <div class="description">
+                                <span class="caption">MEET <B>US</B></span> 
+                                <span class="camera"><i class="fa fa-tachometer"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                   
+                    <div class="col-md-4">
+                        <a href="/images/6.png">
+                        <img src="/images/6.png" alt="" class="image-responsive">
+                            <div class="description">
+                                <span class="caption">NGO <b>REGISTRATION</b></span> 
+                                <span class="camera"><i class="fa fa-coffee"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/images/5.png">
+                        <img src="/images/5.png" alt="" class="image-responsive">
+                            <div class="description">
+                                <span class="caption">CHARITY <B>EVENT</B></span> 
+                                <span class="camera"><i class="fa fa-microphone"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="col-md-4">
+                      <a href="https://shuddhi.org/uploads/3/4/7/9/34791871/jute-bag-shuddhi-ngo-india_orig.jpeg">
+                          <img src="https://shuddhi.org/uploads/3/4/7/9/34791871/jute-bag-shuddhi-ngo-india_orig.jpeg" alt="" style="height:210px;" class="image-responsive">
+                          <div class="description">
+                              <span class="caption">CLEANLINESS <B>PROGRAMME</B></span> 
+                              <span class="camera"><i class="fa fa-camera"></i></span>
+                              <div class="clearfix"></div>
+                          </div>			
+                      </a>
+                  </div>
+                  <div class="col-md-4">
+                      <a href="/images/doordarshan.jpg">
+                      <img src="/images/doordarshan.jpg" alt="" style="height:210px;" class="image-responsive">
+                          <div class="description">
+                              <span class="caption">DOORDARSHAN <B>PANEL</B></span> 
+                              <span class="camera"><i class="fa fa-link"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-4">
+                      <a href="/images/drive.jpg">
+                      <img src="/images/drive.jpg" alt="" style="height:210px;" class="image-responsive">
+                          <div class="description">
+                              <span class="caption">CLEANLINESS <B>DRIVE</B></span> 
+                              <span class="camera"><i class="fa fa-heart"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-4">
+                      <a href="/images/wasteman.jpg">
+                      <img src="/images/wasteman.jpg" alt="" style="height:210px;" class="image-responsive">
+                          <div class="description">
+                              <span class="caption">WASTE WATER <B>MANAGEMENT</B></span> 
+                              <span class="camera"><i class="fa fa-tachometer"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+                 
+                  <div class="col-md-4">
+                      <a href="/images/green.jpg">
+                      <img src="/images/green.jpg" alt="" style="height:210px;" class="image-responsive">
+                          <div class="description">
+                              <span class="caption">GO <b>GREEN</b></span> 
+                              <span class="camera"><i class="fa fa-coffee"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-4">
+                      <a href="/images/shuddhiarmy.jpg">
+                      <img src="/images/shuddhiarmy.jpg" alt="" style="height:210px;" class="image-responsive">
+                          <div class="description">
+                              <span class="caption">SHUDDHI <B>ARMY</B></span> 
+                              <span class="camera"><i class="fa fa-microphone"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+                   
+                </br>
+                
+                <div class="col-md-12 sol-sm-12">
+                <br>  <div class="maintitle">
+                      <h3 class="section-title" style="font-family: Georgia;">Cleanliness Drive Juhu Beach</h3>
+                  </br>
+                  <br>
+                  </div>
+                </div>
+                </br>
+                <div class="col-md-4">
+                  <a href="/images/savewater.jpg">
+                  <img src="/images/savewater.jpg" alt="" style="height:210px;" class="image-responsive">
+                      <div class="description">
+                          <span class="caption">SAVE <B>WATER</B></span> 
+                          <span class="camera"><i class="fa fa-heart"></i></span>
+                          <div class="clearfix"></div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-md-4">
+                  <a href="/images/swachta.jpg">
+                  <img src="/images/swachta.jpg" alt="" style="height:210px;" class="image-responsive">
+                      <div class="description">
+                          <span class="caption">SWACHHTA <B>SIPAHI</B></span> 
+                          <span class="camera"><i class="fa fa-tachometer"></i></span>
+                          <div class="clearfix"></div>
+                      </div>
+                  </a>
+              </div>
+             
+              <div class="col-md-4">
+                  <a href="/images/team.jpg">
+                  <img src="/images/team.jpg" alt="" style="height:210px;" class="image-responsive">
+                      <div class="description">
+                          <span class="caption">TEAM <b>SHUDDHI</b></span> 
+                          <span class="camera"><i class="fa fa-coffee"></i></span>
+                          <div class="clearfix"></div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-md-4">
+                  <a href="/images/collection.jpg">
+                  <img src="/images/collection.jpg" alt="" style="height:210px;" class="image-responsive">
+                      <div class="description">
+                          <span class="caption">WASTE <B>COLLECTION</B></span> 
+                          <span class="camera"><i class="fa fa-microphone"></i></span>
+                          <div class="clearfix"></div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-md-4">
+                <a href="/images/wasteman.jpg">
+                    <img src="/images/wasteman.jpg" alt="" style="height:210px;" class="image-responsive">
+                    <div class="description">
+                        <span class="caption">RECYCLING <B>WASTE</B></span> 
+                        <span class="camera"><i class="fa fa-camera"></i></span>
+                        <div class="clearfix"></div>
+                    </div>			
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/images/cleaning.jpg">
+                <img src="/images/cleaning.jpg" alt="" style="height:210px;" class="image-responsive">
+                    <div class="description">
+                        <span class="caption">CLEANING <B>BEACHES</B></span> 
+                        <span class="camera"><i class="fa fa-link"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12 sol-sm-12">
+                <br>  <div class="maintitle">
+                      <h3 class="section-title" style="font-family: Georgia;">Our New Photos</h3>
+                    </br>
+                    <br>
+                    </div>
+                </div>
+                      <% var mod = ((Gal.length)%3) %>
+                      <% var n = 0 %>
+                      <% for(var i = 0; i < (parseInt((Gal.length)/3)); i++) { %>
+                      <% for(var j = 0; j < 3; j++) { %>
+                      <div class="col-md-4">
+                        <a href="/uploads/<%= Gal[n].image %>">
+                        <img src="/uploads/<%= Gal[n].image %>" alt="" style="height:210px;" class="image-responsive">
+                            <div class="description">
+                                <span class="caption"><B><%=Gal[n].description %></B></span> 
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                        <% n++ %>
+                    </div>
+                    <% } %>
+                    <% } %> 
+
+                    <% for(var m = 0; m < mod; m++) { %>
+                        <div class="col-md-4">
+                            <a href="/uploads/<%= Gal[n].image %>">
+                            <img src="/uploads/<%= Gal[n].image %>" alt="" style="height:210px;" class="image-responsive">
+                                <div class="description">
+                                    <span class="caption"><B><%=Gal[n].description %></B></span> 
+                                    
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                            <% n++ %>
+                        </div>
+                        <% } %>
+
+                    
+                  </br>
+                  <br>
+                  
+                
+                </div>
+                
+            </div>
+        </div>  
+        
+
+      <!-- Page Footer-->
+      <footer class="section footer-minimal context-dark">
+        <div class="container wow-outer">
+          <div class="wow fadeIn">
+            <div class="row row-50 row-lg-60">
+              <div class="col-12"><a href="/"><img src="/images/Shuddhifooter.png" alt="" width="207" height="51"/></a></div>
+              <p>Shuddhi is a Global Platform developed for People, Organisations and NGOs to Build Network of Social Workers, Raise Funds Online, Shop GoGreen Products, Organise Events etc. by using the most secure and transparent platform.</p>
+              <div class="col-12">
+                <ul class="footer-minimal-nav">
+                  <li><a href="/aboutus">About Us</a></li>
+                  <!--<li><a href="/causes">Causes</a></li>-->
+                  <li><a href="/main/gallery">Gallery</a></li>
+                  <li><a href="/main/registervolunteer">Volunteer</a></li>
+                  <li><a href="/contactus">Contacts</a></li>
+                  <li><a href="https://shuddhi.org/index.html">Old Website</a></li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <ul class="social-list">
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="https://www.facebook.com/shuddhi.org"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="https://www.instagram.com/ngoshuddhi/"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="https://twitter.com/ngoshuddhi"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="https://www.youtube.com/ShuddhiNGO"></a></li>
+                  
+                </ul>
+              </div>
+            </div><br>
+            <center><div>Share this page to:</div></center><br>
+            <div class="sharethis-inline-share-buttons"></div>
+           
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="/javascripts/core.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+
+ 
+
+    <!-- coded by ragnar-->
+  </body>
+  
+  
+
+</html>

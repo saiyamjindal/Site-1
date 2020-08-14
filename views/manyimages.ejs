@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+<!--===============================================================================================-->
+
+
+</head>
+
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('/images/backlogin1.jpeg');">
+			<div class="wrap-login100" style="background-color: #e6e5e1;">
+				<form class="login100-form validate-form" method="post" style="background-color:#e6e5e1;" enctype="multipart/form-data">
+					<span class="login100-form-title p-b-34">
+						<h2 style="margin-right: -2rem; margin-left: -1rem; margin-bottom: -2rem; color: #0a69f0; font-weight: 600;">Images !!</h2></br></br></br>
+					</span>
+					<div class="form-group">
+						<label for="file" style="margin-left:0rem; font-size: 1.5rem;">Upload Image</label><br>
+						<input type="file" id="email" name="images" multiple style="width: 18rem; height: 2rem;" />
+					  </div>
+            <br>
+					  <div class="form-group">
+						<button type="submit" style="background-color: #0a69f0; width: 15rem; height: 2.5rem; border-radius: 0.7rem; margin-left: 1.5rem;">Upload</button>
+					  </div>
+
+										
+				</form>
+
+				<div class="login100-more" style="background-image: url('/images/log.jpeg')" ></div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/vendor/bootstrap/js/popper.js"></script>
+	<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="/javascripts/main.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
+    <head>
+    </head>
+    <body>
+        <form method = "post" enctype="multipart/form-data">
+        <input type="file" name="images" multiple /> Photo Upload
+        <div class="form-group">
+          <button type="submit">Upload</button>
+        </div>
+    </form>
+    </body>
+</html> -->
