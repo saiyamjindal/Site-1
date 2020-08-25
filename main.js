@@ -3104,7 +3104,7 @@ async function forgetPassword(req, res) {
           const resetToken = user.createResetToken();
           // confirm password
           await user.save({ validateBeforeSave: false });
-          resetPath = "http://localhost:3000/main/resetpassword/" + resetToken;
+          resetPath = "https://shuddhi-ngo.herokuapp.com/main/resetpassword/" + resetToken;
             let useremail = req.body.email;
             
           // send Mail
